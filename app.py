@@ -38,7 +38,7 @@ definiciones = {
 }
 if selected == "Inicio":
     st.title("Sistema de Inteligencia para Bolsa de Valores - Equipo D")
-    image = Image.open('prod/MachineLearningStocksMarket.png')
+    image = Image.open('MachineLearningStocksMarket.png')
     st.image(image)
     st.markdown('**Curso:** Inteligencia de Negocios')
     st.markdown('**Docente Líder del Proyecto:** Mg. Ing. Ernesto Cancho-Rodríguez, MBA de la George Washington University ecr@gwu.edu')
