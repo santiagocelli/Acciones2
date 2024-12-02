@@ -41,7 +41,7 @@ def obtenerData(instrumentoFinanciero, fechaInicio, fechaFin):
     PEN_X_data.columns += "_PEN_X"
     BZ_F_data = yf.download('BZ=F', start=fechaInicio, end=fechaFin)
     BZ_F_data.columns += "_BZ_F"
-    df = pd.merge(IF_df, GLD_data, on='Date')
+    df = pd.merge(df, GLD_data, on='Date')
     df = pd.merge(df, SLV_data, on='Date')
     df = pd.merge(df, COPX_data, on='Date')
     df = pd.merge(df, GSPC_data, on='Date')
