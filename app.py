@@ -17,7 +17,7 @@ streamlit_style = """
 			"""
 st.markdown(streamlit_style, unsafe_allow_html=True)
 with st.sidebar:
-    image = Image.open('prod/BusinessIntelligence.png')
+    image = Image.open('BusinessIntelligence.png')
     st.image(image)
     selected = option_menu(
         menu_title="Menú",
