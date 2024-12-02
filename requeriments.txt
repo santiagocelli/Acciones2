@@ -1,0 +1,14 @@
+streamlit
+Pillow
+streamlit_option_menu
+joblib
+pandas
+DateTime
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+yfinance
+keras
+tensorflow
